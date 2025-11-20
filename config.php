@@ -1,8 +1,8 @@
 <?php
 // config.php
-$host = "db.fr-pari1.bengt.wasmernet.com";
-$username = "e5a20498714b8000a92ee2befda2"; 
-$password = "0691e5a2-0498-7b31-8000-348fca14aa69";
+$host = "localhost";
+$username = "root"; 
+$password = "";
 $database = "user";
 
 // Membuat koneksi
@@ -15,5 +15,4 @@ if ($conn->connect_error) {
 
 // Set charset
 $conn->set_charset("utf8mb4");
-
 ?>
